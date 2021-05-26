@@ -1,6 +1,6 @@
 package JavaCoreLesson3;
 
-public class Apple extends Fruit_ {
+public class Apple extends Fruit {
 
     private float weight = 1.0f;
 

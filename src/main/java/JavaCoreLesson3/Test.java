@@ -5,24 +5,24 @@ public class Test {
     public static void main(String[] args) {
 
         System.out.println("\n The weight of the box \n");
-        Box_<Apple_> appleBox1 = new Box_();
+        Box<Apple> appleBox1 = new Box();
         for(int i = 0; i < 8; i++){
-            appleBox1.add(new Apple_());
+            appleBox1.add(new Apple());
         }
 
-        Box_<Apple_> appleBox2 = new Box_();
+        Box<Apple> appleBox2 = new Box();
         for(int i = 0; i < 7; i++){
-            appleBox2.add(new Apple_());
+            appleBox2.add(new Apple());
         }
 
-        Box_<Orange_> orangeBox1 = new Box_();
+        Box<Orange> orangeBox1 = new Box();
         for(int i = 0; i < 4; i++){
-            orangeBox1.add(new Orange_());
+            orangeBox1.add(new Orange());
         }
 
-        Box_<Orange_> orangeBox2 = new Box_();
+        Box<Orange> orangeBox2 = new Box();
         for(int i = 0; i < 3; i++){
-            orangeBox2.add(new Orange_());
+            orangeBox2.add(new Orange());
         }
 
         System.out.println(appleBox1.getBoxWeight());

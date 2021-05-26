@@ -2,7 +2,7 @@ package JavaCoreLesson3;
 
 import java.util.ArrayList;
 
-public class Box<T extends Fruit_> {
+public class Box<T extends Fruit> {
 
     private ArrayList<T> fruits = new ArrayList<T>();
 
